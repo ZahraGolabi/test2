@@ -1,4 +1,3 @@
-@import "./font.css";
 :root {
     --green: #0b7a54;
     --green-deep: #075a3d;
@@ -554,7 +553,7 @@ main>section+section {
         scrollbar-color: var(--green) var(--field);
     }
     .offer .track {
-        scrollbar-color: #fff rgba(255, 255, 255, 0.3);
+        scrollbar-color: var(--orange) rgba(255, 255, 255, 0.705);
     }
 }
 
@@ -986,7 +985,7 @@ main>section+section {
     font-weight: 700;
     font-size: 0.7rem;
     line-height: 1.6;
-    color: var(--ink);
+    color: var(--green-night);
 }
 
 .price strong small {
