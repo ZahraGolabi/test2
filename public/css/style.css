@@ -841,7 +841,7 @@ main>section+section {
     width: calc((100% - (var(--pv) - 1) * var(--gap)) / var(--pv));
 }
 
-.products-track-lates>* {
+.products-track-latest>* {
     width: calc((70% - (var(--pv) - 1) * var(--gap)) / var(--pv));
 }
 
